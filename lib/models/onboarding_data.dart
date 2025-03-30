@@ -12,20 +12,21 @@ class OnboardingData {
   static List<OnboardingData> getOnboardingItems() {
     return [
       OnboardingData(
-        title: 'Welcome to LankaSwap',
+        title: 'Welcome to LankaSwap!',
         description:
-            'The first decentralized exchange on the Binance Smart Chain',
+            'Easily swap products with people across Sri Lanka. No hassle, just great deals!',
         imagePath: 'assets/welcome.png',
       ),
       OnboardingData(
         title: 'Swap Anything, Anytime',
-        description: 'From books to gadgets, swap what you love.',
+        description:
+            'From books to electronics, exchange what you don’t need for something you love!',
         imagePath: 'assets/swap.png',
       ),
       OnboardingData(
-        title: 'Join the Community',
-        description: 'Start swapping and be part of the movement!',
-        imagePath: 'assets/community.png',
+        title: 'Join Our Community',
+        description: 'Connect with fellow swappers and start trading today!',
+        imagePath: 'assets/.png',
       ),
     ];
   }
