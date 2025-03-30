@@ -14,12 +14,14 @@ class OnboardingPage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(
-            data.imagePath,
-            height: 300,
-            errorBuilder:
-                (context, error, stackTrace) =>
-                    const Icon(Icons.image, size: 100),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(45.0),
+            child: Image.asset(
+              data.imagePath,
+              height: 300,
+              width: double.infinity,
+              fit: BoxFit.cover,
+            ),
           ),
           const SizedBox(height: 20),
 

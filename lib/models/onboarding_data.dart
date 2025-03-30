@@ -26,7 +26,7 @@ class OnboardingData {
       OnboardingData(
         title: 'Join Our Community',
         description: 'Connect with fellow swappers and start trading today!',
-        imagePath: 'assets/.png',
+        imagePath: 'assets/community.png',
       ),
     ];
   }
